@@ -32,10 +32,7 @@ wget "link nya" -O plsrunmeiamnotmalwarefr
 chmod +x plsrunmeiamnotmalwarefr
 ./plsrunmeiamnotmalwarefr
 ```
-```
-cd ..
-wget -O plsrunmeiamnotmalwarefr "LINK_DARI_FLAG"
-```
+
 ```
 chmod +x plsrunmeiamnotmalwarefr
 ./plsrunmeiamnotmalwarefr

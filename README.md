@@ -61,6 +61,8 @@ cd fufufafa
 ```
 ```
 cd /var/tmp/pls_solve_this_puzzle
+```
+```
 find /tmp/pls_solve_this_puzzle -type f -name "hello_*.html" -exec sh -c 'tail -n1 "$1"' _ {} \; | grep -v '00000000: 0000 0000 0000 0000 0000 0000 0000 0000' | sort | cut -d' ' -f2- | tr -d ' ' | xxd -r -p | awk '{printf "%s", $0}' > fufufafa/flag2.txt
 ```
 ```

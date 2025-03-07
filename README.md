@@ -33,6 +33,43 @@ chmod +x plsrunmeiamnotmalwarefr
 ./plsrunmeiamnotmalwarefr
 ```
 ```
+cd ..
+wget -O plsrunmeiamnotmalwarefr "LINK_DARI_FLAG"
+```
+```
+chmod +x plsrunmeiamnotmalwarefr
+./plsrunmeiamnotmalwarefr
+```
+```
+ps aux | grep plsrunmeiamnotmalwarefr
+```
+```
+touch ransom.moolah
+ls -l ransom.moolah
+```
+```
+pkill -f plsrunmeiamnotmalwarefr
+```
+```
+sudo useradd -m yabadabadoo
+sudo usermod -aG sudo yabadabadoo
+sudo groups yabadabadoo
+su - yabadabadoo
+```
+```
+mkdir fufufafa
+chmod 770 fufufafa
+ls -ld fufufafa
+cd fufufafa
+```
+```
+cd /var/tmp/pls_solve_this_puzzle
 find /tmp/pls_solve_this_puzzle -type f -name "hello_*.html" -exec sh -c 'tail -n1 "$1"' _ {} \; | grep -v '00000000: 0000 0000 0000 0000 0000 0000 0000 0000' | sort | cut -d' ' -f2- | tr -d ' ' | xxd -r -p | awk '{printf "%s", $0}' > fufufafa/flag2.txt
+```
+```
+cp ~/artists_who_can_sing/flag.txt ~/fufufafa/
+```
+```
+rm -rf /var/tmp/pls_solve_this_puzzle
 ```
 

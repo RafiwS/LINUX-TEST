@@ -22,7 +22,7 @@ unzip tutorial.zip -d singing_tutorials
 ls -la
 ```
 ```
-grep -ril "opera" | xargs grep -i "NBAYoungboy" | xargs grep -o "FLAG{.*}" > ../flag.txt
+find . -type f -iname "*opera*NBAYoungBoy*" -exec grep -oE "FLAG\{[^}]+\}" {} + | head -n 1 > ../flag.txt
 ```
 ```
 cd ..

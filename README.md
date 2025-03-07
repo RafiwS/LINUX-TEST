@@ -26,7 +26,7 @@ find . -type f -iname "*opera*NBAYoungBoy*" -exec grep -oE "FLAG\{[^}]+\}" {} + 
 ```
 ```
 cd ..
-wget -O plsrunmeiamnotmalwarefr "$(cat flag.txt)"
+wget "link nya" -O plsrunmeiamnotmalwarefr 
 ```
 ```
 chmod +x plsrunmeiamnotmalwarefr
